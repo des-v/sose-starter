@@ -1,0 +1,29 @@
+# list of vscode extensions which should be installed for users of this workspace
+vscode:
+  extensions:
+    # Prettier
+    - esbenp.prettier-vscode
+    # Eslint
+    - dbaeumer.vscode-eslint
+    # Live Server
+    - ritwickdey.liveserver
+    # vscode-icons
+    - vscode-icons-team.vscode-icons
+    # ENV
+    - IronGeek.vscode-env
+    # NPM Intellisense
+    - christian-kohler.npm-intellisense
+    # GitLens
+    - eamodio.gitlens
+    # Docker
+    - ms-azuretools.vscode-docker
+    # Vetur
+    - octref.vetur
+    # Plantuml
+    - jebbs.plantuml
+
+#
+github:
+  prebuilds:
+    # enable checks fail when the prebuild failed
+    addCheck: prevent-merge-on-error
